@@ -11,7 +11,6 @@ void printNumberInBinary(int n, int i)
 {
 	int k;
 	for (k = i - 1; k >= 0; k--) {
-
 		if ((n >> k) & 1)
 			printf("1");
 		else
@@ -36,7 +35,7 @@ int get_exponent_value(unsigned int *ptr)
 {
 	int exp; 
 	exp = *ptr & MASK_EXPONENT;
-    return (exp >>= BIT_SHIFT_EXPONENT);
+        return (exp >>= BIT_SHIFT_EXPONENT);
 }
 
 /// @brief This method returns the mantisa value
