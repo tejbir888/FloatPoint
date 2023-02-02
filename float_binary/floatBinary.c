@@ -1,4 +1,4 @@
-///This project is to convert a floating point number to binary///
+///This project is to convert a floating point number to binary representation as per IEEE754 standards///
 
 #include "floatBinary.h"
 
